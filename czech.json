@@ -1,0 +1,14 @@
+{
+	"id": "czech_translation",
+	"name": "Český Překlad",
+	"display_name": "CZ",
+	"author": ["MozkoMor"],
+	"description": "Český překlad do Balatra. Pište mi na Discord (mozkomor) jestli najdete chyby.",
+	"prefix": "czech",
+	"main_file": "main.lua",
+	"priority": 0,
+	"badge_colour": "3FC7EB",
+	"badge_text_colour": "FFFFFF",
+	"version": "0.1",
+	"dependencies": []
+}
