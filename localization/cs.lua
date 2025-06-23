@@ -3937,7 +3937,7 @@ return {
             },
             fh_2={
                 "Každá {C:attention}kombinace{} vydělá",
-                "základní počet {C:blue}Žetonů, které jsou",
+                "základní počet {C:blue}Žetonů,{} které jsou",
                 "vynásobeny nějakým {C:red}Násob.",
             },
             fh_3={
