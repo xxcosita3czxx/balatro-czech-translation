@@ -1873,9 +1873,9 @@ return {
             challenge_locked={
                 name="Zamčený",
                 text={
-                    "Win a run with at least",
-                    "#1# different decks to unlock",
-                    "Challenge mode",
+                    "Vyhraj hru s alespoň",
+                    "#1# jinými balíčky k odemčení",
+                    "režimu výzvy",
                     "{C:attention,s:2}#2#/#1#",
                 },
             },
@@ -1905,17 +1905,17 @@ return {
             deck_locked_stake={
                 name="Zamčený",
                 text={
-                    "Vyhraj hru s",
-                    "deck on at least",
-                    "{V:1}#1#{} difficulty",
+                    "Vyhraj hru s jakýmkoliv",
+                    "balíčkem na alespoň",
+                    "{V:1}#1#{}",
                 },
             },
             deck_locked_win={
                 name="Zamčený",
                 text={
-                    "Win a run with",
+                    "Vyhraj hru s",
                     "{C:attention}#1#{}",
-                    "on any difficulty",
+                    "na jakékoliv Sázce",
                 },
             },
             demo_locked={
@@ -1935,10 +1935,10 @@ return {
                 },
             },
             eternal={
-                name="Eternal",
+                name="Věčný",
                 text={
-                    "Can't be sold",
-                    "or destroyed",
+                    "Nemůže být prodán",
+                    "ani zničen",
                 },
             },
             gold_seal={
@@ -1952,24 +1952,22 @@ return {
             gold_sticker={
                 name="Zlatá Nálepka",
                 text={
-                    "Used this Joker",
-                    "to win on {C:attention}Gold",
-                    "{C:attention}Stake{} difficulty",
+                    "Použil jsi tohoto Žolíka",
+                    "při výhře v {C:attention}Zlaté Sázce",
                 },
             },
             green_sticker={
                 name="Zelená Nálepka",
                 text={
-                    "Used this Joker",
-                    "to win on {C:attention}Green",
-                    "{C:attention}Stake{} difficulty",
+                    "Použil jsi tohoto Žolíka",
+                    "při výhře v {C:attention}ZelenéSázce",
                 },
             },
             joker_locked_legendary={
                 name="Zamčený",
                 text={
-                    "Find this Joker",
-                    "from the {C:spectral}Soul{} card",
+                    "Najdi tohodle Žolíka",
+                    "z karty {C:spectral}Duše{}",
                 },
             },
             locked={
@@ -1978,11 +1976,10 @@ return {
                 },
             },
             orange_sticker={
-                name="Orandžová Náleplka",
+                name="Oranžová Náleplka",
                 text={
-                    "Used this Joker",
-                    "to win on {C:attention}Orange",
-                    "{C:attention}Stake{} difficulty",
+                    "Použil jsi tohoto Žolíka",
+                    "při výhře v {C:attention}Oranžové Sázce",
                 },
             },
             p_arcana_jumbo={
@@ -2079,7 +2076,7 @@ return {
                 },
             },
             p_standard_jumbo={
-                name="Jumbo Standardtní Balíček",
+                name="Jumbo Standardní Balíček",
                 text={
                     "Vyber si {C:attention}#1#{} z",
                     "{C:attention}#2#{C:attention} Herních{} karet",
@@ -2087,7 +2084,7 @@ return {
                 },
             },
             p_standard_mega={
-                name="Mega Standardtní Balíček",
+                name="Mega Standardní Balíček",
                 text={
                     "Vyber si {C:attention}#1#{} z",
                     "{C:attention}#2#{C:attention} Herních{} karet",
@@ -2095,7 +2092,7 @@ return {
                 },
             },
             p_standard_normal={
-                name="Standardtní Balíček",
+                name="Standardní Balíček",
                 text={
                     "Vyber si {C:attention}#1#{} z",
                     "{C:attention}#2#{C:attention} Herních{} karet",
@@ -2103,19 +2100,18 @@ return {
                 },
             },
             perishable={
-                name="Perishable",
+                name="Netrvanlivý",
                 text={
-                    "Debuffed after",
-                    "{C:attention}#1#{} rounds",
-                    "{C:inactive}({C:attention}#2#{C:inactive} remaining)",
+                    "Znevýhodněn za",
+                    "{C:attention}#1#{} kol",
+                    "{C:inactive}(zbývá: {C:attention}#2#{C:inactive})",
                 },
             },
             pinned_left={
-                name="Pinned",
+                name="Připnutý",
                 text={
-                    "This Joker stays",
-                    "pinned to the",
-                    "leftmost position",
+                    "Tento Žolík zůstane",
+                    "připnutý úplně vlevo",
                 },
             },
             playing_card={
@@ -2134,9 +2130,8 @@ return {
             purple_sticker={
                 name="Fialová Nálepka",
                 text={
-                    "Used this Joker",
-                    "to win on {C:attention}Purple",
-                    "{C:attention}Stake{} difficulty",
+                    "Použil jsi tohoto Žolíka",
+                    "při výhře v {C:attention}Fialové Sázce",
                 },
             },
             red_seal={
@@ -2149,22 +2144,21 @@ return {
             red_sticker={
                 name="Červená Nálepka",
                 text={
-                    "Used this Joker",
-                    "to win on {C:attention}Red",
-                    "{C:attention}Stake{} difficulty",
+                    "Použil jsi tohoto Žolíka",
+                    "při výhře v {C:attention}Červené Sázce",
                 },
             },
             remove_negative={
                 name="n",
                 text={
-                    "{C:inactive,s:0.9}(Removes {C:dark_edition,s:0.9}Negative{C:inactive,s:0.9} from copy)",
+                    "{C:inactive,s:0.9}(Odstraň {C:dark_edition,s:0.9}Negativní{C:inactive,s:0.9} z kopie)",
                 },
             },
             rental={
-                name="Rental",
+                name="Nájmová",
                 text={
-                    "Lose {C:money}$#1#{} at",
-                    "end of round",
+                    "Ztratíš {C:money}$#1#{} na",
+                    "konci kola",
                 },
             },
             undiscovered_booster={
@@ -2255,7 +2249,7 @@ return {
             c_ceres={
                 name="Ceres",
                 text={
-                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Mult a",
                     "{C:chips}+#4#{} žetonů",
@@ -2264,7 +2258,7 @@ return {
             c_earth={
                 name="Země",
                 text={
-                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Mult a",
                     "{C:chips}+#4#{} žetonů",
@@ -2273,7 +2267,7 @@ return {
             c_eris={
                 name="Eris",
                 text={
-                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Mult a",
                     "{C:chips}+#4#{} žetonů",
@@ -2282,7 +2276,7 @@ return {
             c_jupiter={
                 name="Jupiter",
                 text={
-                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Mult a",
                     "{C:chips}+#4#{} žetonů",
@@ -2291,7 +2285,7 @@ return {
             c_mars={
                 name="Mars",
                 text={
-                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Mult a",
                     "{C:chips}+#4#{} žetonů",
@@ -2300,7 +2294,7 @@ return {
             c_mercury={
                 name="Merkur",
                 text={
-                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Mult a",
                     "{C:chips}+#4#{} žetonů",
@@ -2309,7 +2303,7 @@ return {
             c_neptune={
                 name="Neptun",
                 text={
-                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Mult a",
                     "{C:chips}+#4#{} žetonů",
@@ -2318,7 +2312,7 @@ return {
             c_planet_x={
                 name="Planeta X",
                 text={
-                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Mult a",
                     "{C:chips}+#4#{} žetonů",
@@ -2327,7 +2321,7 @@ return {
             c_pluto={
                 name="Pluto",
                 text={
-                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Mult a",
                     "{C:chips}+#4#{} žetonů",
@@ -2336,7 +2330,7 @@ return {
             c_saturn={
                 name="Saturn",
                 text={
-                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Mult a",
                     "{C:chips}+#4#{} žetonů",
@@ -2345,7 +2339,7 @@ return {
             c_uranus={
                 name="Uran",
                 text={
-                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Mult a",
                     "{C:chips}+#4#{} žetonů",
@@ -2354,7 +2348,7 @@ return {
             c_venus={
                 name="Venuše",
                 text={
-                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Mult a",
                     "{C:chips}+#4#{} žetonů",
