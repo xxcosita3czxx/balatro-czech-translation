@@ -200,7 +200,7 @@ class InstallerWindow(ctk.CTk):
 
         # Implement restore functionality here
         if not os.path.exists(self.var_game_path.get() + "/balatro.exe.bak"):
-            msg = "No backup found, please patch first, or supply backup as balatro.exe.bak in game folder"
+            msg = "No backup found, please patch first,\nor supply backup as balatro.exe.bak in game folder"
             self.status_var.set(msg)
             return msg
         os.remove(self.var_game_path.get() + "/balatro.exe")

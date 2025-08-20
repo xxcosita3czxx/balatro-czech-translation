@@ -1391,7 +1391,7 @@ return {
                 },
             },
             j_ring_master={
-                name="Showman",
+                name="Principál",
                 text={
                     "{C:attention}Žolíci{}, {C:tarot}Tarotové{}, {C:planet}Planetové{},",
                     "a {C:spectral}Spektrální{} karty se mohou",
@@ -1840,9 +1840,8 @@ return {
             black_sticker={
                 name="Černá Nálepka",
                 text={
-                    "Used this Joker",
-                    "to win on {C:attention}Black",
-                    "{C:attention}Stake{} difficulty",
+                    "Použil jsi tohoto Žolíka",
+                    "při výhře v {C:attention}Černé Sázce",
                 },
             },
             blue_seal={
@@ -1858,7 +1857,7 @@ return {
                 name="Modrá Nálepka",
                 text={
                     "Použil jsi tohoto Žolíka",
-                    "při výhře na {C:attention}Modré Sázce",
+                    "při výhře v {C:attention}Modré Sázce",
                 },
             },
             card_chips={
@@ -1898,9 +1897,9 @@ return {
             deck_locked_discover={
                 name="Zamčený",
                 text={
-                    "Discover at least",
-                    "{C:attention}#1#{} items from",
-                    "your collection",
+                    "Objev alespoň",
+                    "{C:attention}#1#{} předmětů",
+                    "z tvé kolekce",
                 },
             },
             deck_locked_stake={
