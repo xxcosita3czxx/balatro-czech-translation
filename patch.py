@@ -8,7 +8,7 @@ import tkinter.filedialog
 import re
 import psutil
 
-lua_entry_lang = """['cs'] = {font = 10, label = "Česky", key = 'cs', beta=true, button = "Jazyková zpětná vazba", warning = {'Tento jazyk je stále v beta verzi. Chcete-li nám pomoci','vylepšit ho, klikněte prosím na tlačítko zpětné vazby.', 'Klikněte znovu pro potvrzení.'}},"""
+lua_entry_lang = """['cs'] = {font = 10, label = "Česky", key = 'cs', beta=nil, button = "Jazyková zpětná vazba", warning = {'Tento jazyk je stále v beta verzi. Chcete-li nám pomoci','vylepšit ho, klikněte prosím na tlačítko zpětné vazby.', 'Klikněte znovu pro potvrzení.'}},"""
 lua_entry_font = """{file = "resources/fonts/m6x11pluscs.ttf", render_scale = self.TILESIZE*10, TEXT_HEIGHT_SCALE = 0.83, TEXT_OFFSET = {x=10,y=-20}, FONTSCALE = 0.1, squish = 1, DESCSCALE = 1},"""
 
 def patch_language(lua_file, lua_entry_lang, lua_entry_font):

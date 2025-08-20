@@ -5,7 +5,7 @@ return {
                 name="Opuštěný Balíček",
                 text={
                     "Začni hru s",
-                    "žádnými {C:attention}Lícovými Kartami",
+                    "žádnými {C:attention}Figurovými Kartami",
                     "v balíčku",
                 },
             },
@@ -618,7 +618,7 @@ return {
                 name="Canio",
                 text={
                     "Tento Žolík získá {X:mult,C:white} X#1# {} Mult",
-                    "kdykoliv je {C:attention}lícová{} karta zničena",
+                    "kdykoliv je {C:attention}figurová{} karta zničena",
                     "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Mult)",
                 },
                 unlock={
@@ -822,9 +822,9 @@ return {
             j_duo={
                 name="Dvojka",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult",
-                    "pokud zahraná ruka",
-                    "obsahuje {C:attention}#2#",
+                    "{X:mult,C:white} X#1# {} Mult pokud",
+                    "zahraná ruka obsahuje",
+                    "{C:attention}#2#",
                 },
                 unlock={
                     "Vyhraj hru aniž bys",
@@ -1542,7 +1542,7 @@ return {
             j_smiley={
                 name="Smajlík",
                 text={
-                    "Hrané {C:attention}lícové{} karty",
+                    "Hrané {C:attention}figurové{} karty",
                     "dávají {C:mult}+#1#{} Mult",
                     "při bodování",
                 },
