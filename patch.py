@@ -161,7 +161,7 @@ class InstallerWindow(ctk.CTk):
             shutil.copy("assets/fonts/m6x11pluscs.ttf", "resources/fonts/m6x11pluscs.ttf")
             
             subprocess.run([
-                "7-ZipPortable/App/7-Zip64/7z.exe", "u", self.var_game_path.get()+"/balatro.exe", "localization/cz_cs.lua"
+                "7-ZipPortable/App/7-Zip64/7z.exe", "u", self.var_game_path.get()+"/balatro.exe", "localization/cs.lua"
             ])
             subprocess.run([
                 "7-ZipPortable/App/7-Zip64/7z.exe", "u", self.var_game_path.get()+"/balatro.exe", "resources/fonts/m6x11pluscs.ttf"
