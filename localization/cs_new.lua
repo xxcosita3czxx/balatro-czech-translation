@@ -68,7 +68,7 @@ return {
                 text={
                     "Na konci každého kola:",
                     "{C:money}$#1#{s:0.85} za každou zbývající {C:blue}Ruku",
-                    "{C:money}$#2#{s:0.85} za každé zbývající {C:red}Zahození",
+                    "{C:money}$#2#{s:0.85} za každé zbývající {C:red}Odhození",
                     "Nezískáváš {C:attention}Úrok",
                 },
             },
@@ -590,7 +590,7 @@ return {
                 text={
                     "Když je {C:attention}Blind{} zvolen,",
                     "získáš {C:blue}+#1#{} Ruce a",
-                    "{C:attention}stratiš všechna zahození",
+                    "{C:attention}stratiš všechna odhození",
                 },
             },
             j_burnt={
@@ -762,9 +762,9 @@ return {
             j_delayed_grat={
                 name="Delayed Gratification",
                 text={
-                    "Získej {C:money}$#1#{} za {C:attention}zahození{} pokud",
+                    "Získej {C:money}$#1#{} za {C:attention}odhození{} pokud",
                     "do konce kola nejsou",
-                    "žádné zahození použity",
+                    "žádné odhození použity",
                 },
             },
             j_devious={
@@ -869,7 +869,7 @@ return {
                 text={
                     "Získej {C:money}$#1#{} jestli {C:attention}#2#{} nebo",
                     "více {C:attention}figurových karet{}",
-                    "je zahozeno zárověň",
+                    "je odhozeno zárověň",
                 },
             },
             j_family={
@@ -1039,7 +1039,7 @@ return {
                 text={
                     "Tento Žolík získá {X:mult,C:white} X#1# {} Mult",
                     "za každého {C:attention}Janka{}",
-                    "zahozeného toto kolo",
+                    "odhozeného toto kolo",
                     "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Mult)",
                 },
                 unlock={
@@ -1166,7 +1166,7 @@ return {
                 name="Sleva Poštou",
                 text={
                     "Získej {C:money}$#1#{} za každou",
-                    "zahozenou kartu {C:attention}#2#{}",
+                    "odhozenou kartu {C:attention}#2#{}",
                     "hodnost se mění každé kolo",
                 },
             },
@@ -1351,7 +1351,7 @@ return {
                 text={
                     "{X:mult,C:white} X#1# {} Mult,",
                     "ztratí {X:mult,C:white} X#2# {} Mult",
-                    "za každou zahozenou {C:attention}kartu{}",
+                    "za každou odhozenou {C:attention}kartu{}",
                 },
             },
             j_red_card={
@@ -1359,7 +1359,7 @@ return {
                 text={
                     "Tento Žolík získá",
                     "{C:red}+#1#{} Mult kdykoliv je",
-                    "{C:attention}Booster Balíček{} přeskočen",
+                    "{C:attention}Balíček Vylepšení{} přeskočen",
                     "{C:inactive}(Teď {C:red}+#2#{C:inactive} Mult)",
                 },
             },
@@ -1410,7 +1410,7 @@ return {
                 },
             },
             j_rough_gem={
-                name="Rough Gem",
+                name="Hrubý Drahokam",
                 text={
                     "Hrané {C:diamonds}Kárové{} karty dávají",
                     "{C:money}$#1#{} při bodování",
@@ -1684,7 +1684,7 @@ return {
                 },
             },
             j_todo_list={
-                name="Seznam Úkolů",
+                name="Úkolníček",
                 text={
                     "Získej {C:money}$#1#{} jestli",
                     "hraná {C:attention}kombinace{} je {C:attention}#2#{}",
@@ -1694,7 +1694,7 @@ return {
             j_trading={
                 name="Sběratelská Karta",
                 text={
-                    "Jestli {C:attention}první zahození{} v kole",
+                    "Jestli {C:attention}první odhození{} v kole",
                     "má pouze {C:attention}1{} kartu, znič ji",
                     "a získej {C:money}$#1#",
                 },
@@ -1820,7 +1820,7 @@ return {
                 text={
                     "Tento Žolík získá",
                     "{X:mult,C:white} X#1# {} Mult za každých {C:attention}#2#{C:inactive} [#3#]{}",
-                    "zahozených karet",
+                    "odhozených karet",
                     "{C:inactive}(Teď {X:mult,C:white} X#4# {C:inactive} Mult)",
                 },
                 unlock={
@@ -2592,7 +2592,7 @@ return {
                 name="Kuponový Tag",
                 text={
                     "Počateční karty a",
-                    "booster balíčky v dalším",
+                    "balíčky vylepšení v dalším",
                     "obchodě jsou zdarma",
                 },
             },
@@ -2637,7 +2637,7 @@ return {
                 name="Odpadový Tag",
                 text={
                     "Dává {C:money}$#1#{} za nepoužité",
-                    "{C:red}zahození{} tuto hru",   
+                    "{C:red}odhození{} tuto hru",   
                     "{C:inactive}(Dá {C:money}$#2#{C:inactive})",
                 },
             },
@@ -2990,7 +2990,7 @@ return {
             v_hone={
                 name="Vylepšit",
                 text={
-                    "{C:dark_edition}Foliové{}, {C:dark_edition}Holografické{}, and",
+                    "{C:dark_edition}Foliové{}, {C:dark_edition}Holografické{}, a",
                     "{C:dark_edition}Duhové{} karty",
                     "se objevují {C:attention}#1#X{} častěji",
                 },
@@ -3122,7 +3122,7 @@ return {
                 name="Petroglyf",
                 text={
                     "{C:attention}-#1#{} Ante,",
-                    "{C:red}-#1#{} zahození",
+                    "{C:red}-#1#{} odhození",
                     "každé kolo",
                 },
                 unlock={
@@ -3233,7 +3233,7 @@ return {
                 name="Plýtvání",
                 text={
                     "Natrvalo získej",
-                    "{C:red}+#1#{} zahození",
+                    "{C:red}+#1#{} odhození",
                     "každé kolo",
                 },
             },
@@ -4187,7 +4187,7 @@ return {
                 "Všechny {C:attention}Hrané{} karty budou {C:attention}znevýhodněny{} po bodování",
             },
             ch_c_discard_cost={
-                "Každé zahození stojí {C:money}$#1#{}",
+                "Každé odhození stojí {C:money}$#1#{}",
             },
             ch_c_flipped_cards={
                 "{C:green}1 ku #1#{} karty jsou taženy lícem dolů",
@@ -4229,7 +4229,7 @@ return {
                 "{C:attention}#1#{} místa na spotřební karty",
             },
             ch_m_discards={
-                "{C:red}#1#{} zahození za kolo",
+                "{C:red}#1#{} odhození za kolo",
             },
             ch_m_dollars={
                 "Zační s {C:money}$#1#",
