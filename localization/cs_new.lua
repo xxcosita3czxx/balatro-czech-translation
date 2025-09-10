@@ -78,7 +78,7 @@ return {
                     "Začni hru s",
                     "poukazem {C:tarot,T:v_crystal_ball}#1#{}",
                     "a {C:attention}2{} kopiemi",
-                    "karty{C:tarot,T:c_fool}Blázen",
+                    "karty {C:tarot,T:c_fool}Blázen",
                 },
             },
             b_nebula={
@@ -160,7 +160,7 @@ return {
             bl_final_acorn={
                 name="Jantarový Žalud",
                 text={
-                    "Otočí a zamýchá",
+                    "Otočí a zamíchá",
                     "všechny žolíky",
                 },
             },
@@ -445,7 +445,7 @@ return {
                 name="Abstraktní Žolík",
                 text={
                     "{C:mult}+#1#{} Mult za",
-                    "každýho {C:attention}Žolíka{} v ruce",
+                    "každého {C:attention}Žolíka{} v ruce",
                     "{C:inactive}(Teď {C:red}+#2#{C:inactive} Mult)",
                 },
             },
@@ -505,7 +505,7 @@ return {
                 name="Baron",
                 text={
                     "Každý {C:attention}Král{}",
-                    "v ruce dá{X:mult,C:white} X#1# {} Mult",
+                    "v ruce dá {X:mult,C:white} X#1# {} Mult",
                 },
             },
             j_baseball={
@@ -541,7 +541,7 @@ return {
                 text={
                     "{C:chips}+#1#{} Žetonů za každou",
                     "zbývající kartu v {C:attention}balíčku",
-                    "{C:inactive}(Teď {C:chips}+#2#{C:inactive} Chips)",
+                    "{C:inactive}(Teď {C:chips}+#2#{C:inactive} Žetonů)",
                 },
             },
             j_blueprint={
@@ -590,7 +590,7 @@ return {
                 text={
                     "Když je {C:attention}Blind{} zvolen,",
                     "získáš {C:blue}+#1#{} Ruce a",
-                    "{C:attention}ztratiš všechna zahození",
+                    "{C:attention}stratiš všechna zahození",
                 },
             },
             j_burnt={
@@ -610,7 +610,7 @@ return {
                 name="Vizitka",
                 text={
                     "Zahrané {C:attention}figurové{} karty",
-                    "mají šanci {C:green}#1# in #2#{}",
+                    "mají šanci {C:green}#1# / #2#{}",
                     "na dostání {C:money}$2{}",
                 },
             },
@@ -638,7 +638,7 @@ return {
                 name="Švindlíř",
                 text={
                     "{X:mult,C:white} X#1# {} Mult jestli",
-                    "{C:attention}ruka{} byla už toto kolo",
+                    "{C:attention}pokrová ruka{} byla už toto kolo",
                     "hrána",
                 },
             },
@@ -731,7 +731,7 @@ return {
                 name="Souhvězdí",
                 text={
                     "Tento žolík získá",
-                    "{X:mult,C:white} X#1# {} Mult pokaždý",
+                    "{X:mult,C:white} X#1# {} Mult pokaždé",
                     "když {C:planet}Planetární{} karta je použita",
                     "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Mult)",
                 },
@@ -1002,7 +1002,7 @@ return {
                 text={
                     "{C:red}+#1#{} Mult pokud",
                     "ruka obsahuje",
-                    "míň jak {C:attention}#2#{} karty",
+                    "{C:attention}#2#{} a méně karet",
                 },
             },
             j_hallucination={
@@ -1107,7 +1107,7 @@ return {
                 },
             },
             j_juggler={
-                name="Jonglér",
+                name="Žonglér",
                 text={
                     "{C:attention}+#1#{} velikost ruky",
                 },
@@ -1257,7 +1257,7 @@ return {
                 },
             },
             j_odd_todd={
-                name="Lichý Todd",
+                name="Lichý Tod",
                 text={
                     "Každá zahraná",
                     "{C:attention}lichá{} karta dá",
@@ -1323,7 +1323,7 @@ return {
                 },
             },
             j_photograph={
-                name="Fotograf",
+                name="Fotografie",
                 text={
                     "První hraná {C:attention}figurová",
                     "karta dává {X:mult,C:white} X#1# {} Mult",
@@ -1631,7 +1631,7 @@ return {
             j_superposition={
                 name="Superpozice",
                 text={
-                    "Vytvoří {C:tarot}Tarot{} kartu",
+                    "Vytvoří {C:tarot}Tarotovou{} kartu",
                     "pokud zahraná pokrová ruka obsahuje",
                     "{C:attention}Eso{} a {C:attention}Postupka{}",
                     "{C:inactive}(Musí být místo)",
@@ -3256,7 +3256,7 @@ return {
             completionist_plus="Win with every deck on Gold Stake difficulty",
             completionist_plus_plus="Earn a Gold Sticker on every Joker",
             extreme_couponer="Objev každý Poukaz",
-            flushed="Zahraj Barvu s 5ti divokými kartami",
+            flushed="Zahraj Barvu s 5 divokými kartami",
             heads_up="Vyhraj Hru",
             high_stakes="Win a run on at least Gold Stake difficulty",
             legendary="Discover a Legendary Joker",
@@ -3317,7 +3317,7 @@ return {
         challenge_names={
             c_blast_off_1="Letíme!",
             c_bram_poker_1="Bram Poker",
-            c_city_1="15ti Minutové Město",
+            c_city_1="15Minutové Město",
             c_cruelty_1="Krutost",
             c_double_nothing_1="Všechno nebo Nic",
             c_five_card_1="Tažení Pěti Karet",
