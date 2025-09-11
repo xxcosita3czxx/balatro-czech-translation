@@ -417,7 +417,7 @@ return {
                 },
             },
             m_stone={
-                name="Kamená Karta",
+                name="Kamenná Karta",
                 text={
                     "{C:chips}+#1#{} Žetonů",
                     "žádná hodnota ani barva",
@@ -1600,7 +1600,7 @@ return {
                 },
             },
             j_stone={
-                name="Kamený Žolík",
+                name="Kamenný Žolík",
                 text={
                     "Dává {X:mult,C:white} X#1# {} Mult",
                     "za každou {C:attention}Ocelovou Kartu",
