@@ -101,7 +101,7 @@ return {
                 name="Plasmový Balíček",
                 text={
                     "Vyrovnej {C:blue}Žetony{} a",
-                    "{C:red}Mult{} při vypočítání",
+                    "{C:red}Násob{} při vypočítání",
                     "skóre pro zahranou ruku",
                     "{C:red}X#1#{} základní hodnota Blindu",
                 },
@@ -202,7 +202,7 @@ return {
                 name="Pazourek",
                 text={
                     "Základní žetony a",
-                    "Multy jsou poloviční",
+                    "Násoby jsou poloviční",
                 },
             },
             bl_goad={
@@ -289,7 +289,7 @@ return {
             bl_serpent={
                 name="Had",
                 text={
-                    "Za každou hru nebo odhoz,",
+                    "Za každou zahranou ruku nebo odhoz,",
                     "vždycky lízni 3 karty",
                 },
             },
@@ -349,7 +349,7 @@ return {
             e_holo={
                 name="Holografický",
                 text={
-                    "{C:mult}+#1#{} Mult",
+                    "{C:mult}+#1#{} Násob",
                 },
             },
             e_negative={
@@ -367,7 +367,7 @@ return {
             e_polychrome={
                 name="Duhový",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult",
+                    "{X:mult,C:white} X#1# {} Násob",
                 },
             },
         },
@@ -380,7 +380,7 @@ return {
             m_glass={
                 name="Skleněná Karta",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult",
+                    "{X:mult,C:white} X#1# {} Násob",
                     "šance {C:green}#2# ze #3#{} na",
                     "zničení karty",
                 },
@@ -397,21 +397,21 @@ return {
                 name="Karta Štěstí",
                 text={
                     "Šance {C:green}#1# z #3#{}",
-                    "pro {C:mult}+#2#{} Mult",
+                    "pro {C:mult}+#2#{} Násob",
                     "Šance {C:green}#1# z #5#{}",
                     "pro výhru {C:money}$#4#",
                 },
             },
             m_mult={
-                name="Mult Karta",
+                name="Násobitelská Karta",
                 text={
-                    "{C:mult}+#1#{} Mult",
+                    "{C:mult}+#1#{} Násob",
                 },
             },
             m_steel={
                 name="Ocelová Karta",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult",
+                    "{X:mult,C:white} X#1# {} Násob",
                     "pokud tahle karta",
                     "zůstane v ruce",
                 },
@@ -444,15 +444,15 @@ return {
             j_abstract={
                 name="Abstraktní Žolík",
                 text={
-                    "{C:mult}+#1#{} Mult za",
+                    "{C:mult}+#1#{} Násob za",
                     "každého {C:attention}Žolíka{} v ruce",
-                    "{C:inactive}(Teď {C:red}+#2#{C:inactive} Mult)",
+                    "{C:inactive}(Teď {C:red}+#2#{C:inactive} Násob)",
                 },
             },
             j_acrobat={
                 name="Akrobat",
                 text={
-                    "{X:red,C:white} X#1# {} Mult na {C:attention}poslední",
+                    "{X:red,C:white} X#1# {} Násob na {C:attention}poslední",
                     "{C:attention}ruce{} kola",
                 },
                 unlock={
@@ -465,7 +465,7 @@ return {
                 text={
                     "Každá karta s",
                     "{V:1}#2#{} dá",
-                    "{X:mult,C:white} X#1# {} Mult",
+                    "{X:mult,C:white} X#1# {} Násob",
                     "{s:0.8} barva se mění každé kolo",
                 },
             },
@@ -505,20 +505,20 @@ return {
                 name="Baron",
                 text={
                     "Každý {C:attention}Král{}",
-                    "v ruce dá {X:mult,C:white} X#1# {} Mult",
+                    "v ruce dá {X:mult,C:white} X#1# {} Násob",
                 },
             },
             j_baseball={
                 name="Baseballová Karta",
                 text={
                     "{C:green}Neobyčejní{} Žolíci",
-                    "dávají {X:mult,C:white} X#1# {} Mult",
+                    "dávají {X:mult,C:white} X#1# {} Násob",
                 },
             },
             j_blackboard={
                 name="Tabule",
                 text={
-                    "{X:red,C:white} X#1# {} Mult jestli",
+                    "{X:red,C:white} X#1# {} Násob jestli",
                     "všechny karty drženy v ruce",
                     "jsou {C:spades}Piky{} nebo {C:clubs}Kříže{}",
                 },
@@ -528,7 +528,7 @@ return {
                 text={
                     "Každá zahraná {C:hearts}Srdcová{} karta má",
                     "šanci {C:green}#1# z #2#{} na",
-                    "{X:mult,C:white} X#3# {} Mult při bodování",
+                    "{X:mult,C:white} X#3# {} Násob při bodování",
                 },
                 unlock={
                     "Měj alespoň {E:1,C:attention}#1#",
@@ -548,7 +548,7 @@ return {
                 name="Blueprint",
                 text={
                     "Kopíruje schopnost",
-                    "{C:attention}Žolíka{} napravo",
+                    "{C:attention}Žolíka{} nejvíce vpravo",
                 },
                 unlock={
                     "Vyhraj hru",
@@ -557,9 +557,9 @@ return {
             j_bootstraps={
                 name="Poutka",
                 text={
-                    "{C:mult}+#1#{} Mult za každý",
+                    "{C:mult}+#1#{} Násob za každý",
                     "{C:money}$#2#{} co máš",
-                    "{C:inactive}(Teď {C:mult}+#3#{C:inactive} Mult)",
+                    "{C:inactive}(Teď {C:mult}+#3#{C:inactive} Násob)",
                 },
                 unlock={
                     "Měj alespoň",
@@ -617,9 +617,9 @@ return {
             j_caino={
                 name="Canio",
                 text={
-                    "Tento Žolík získá {X:mult,C:white} X#1# {} Mult",
+                    "Tento Žolík získá {X:mult,C:white} X#1# {} Násob",
                     "kdykoliv je {C:attention}figurová{} karta zničena",
-                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Násob)",
                 },
                 unlock={
                     "{E:1,s:1.3}?????",
@@ -628,16 +628,16 @@ return {
             j_campfire={
                 name="Ohniště",
                 text={
-                    "Tento Žolík získá {X:mult,C:white}X#1#{} Mult",
+                    "Tento Žolík získá {X:mult,C:white}X#1#{} Násob",
                     "za každou {C:attention}prodanou{} kartu,",
                     "resetuje se kdykoliv je {C:attention}Boss Blind{} poražen",
-                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Násob)",
                 },
             },
             j_card_sharp={
                 name="Švindlíř",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult jestli",
+                    "{X:mult,C:white} X#1# {} Násob jestli",
                     "{C:attention}pokrová ruka{} byla už toto kolo",
                     "hrána",
                 },
@@ -666,7 +666,7 @@ return {
             j_cavendish={
                 name="Kavenda",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult",
+                    "{X:mult,C:white} X#1# {} Násob",
                     "{C:green}#2# z #3#{} šance tato",
                     "karta je na konci kola zničena",
                 },
@@ -677,8 +677,8 @@ return {
                     "Když je zvolen {C:attention}Blind{},",
                     "zničí žolíka napravo",
                     "a natrvalo přidá {C:attention}dvojnásobek",
-                    "jeho prodejní hodnoty k {C:red}Mult",
-                    "{C:inactive}(Teď {C:mult}+#1#{C:inactive} Mult)",
+                    "jeho prodejní hodnoty k {C:red}Násob",
+                    "{C:inactive}(Teď {C:mult}+#1#{C:inactive} Násob)",
                 },
             },
             j_certificate={
@@ -731,9 +731,9 @@ return {
                 name="Souhvězdí",
                 text={
                     "Tento žolík získá",
-                    "{X:mult,C:white} X#1# {} Mult pokaždé",
+                    "{X:mult,C:white} X#1# {} Násob pokaždé",
                     "když {C:planet}Planetární{} karta je použita",
-                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Násob)",
                 },
             },
             j_crafty={
@@ -747,7 +747,7 @@ return {
             j_crazy={
                 name="Šílený Žolík",
                 text={
-                    "{C:red}+#1#{} Mult",
+                    "{C:red}+#1#{} Násob",
                     "pokud zahraná ruka",
                     "obsahuje {C:attention}#2#",
                 },
@@ -795,7 +795,7 @@ return {
             j_drivers_license={
                 name="Řidičský Průkaz",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult jestli",
+                    "{X:mult,C:white} X#1# {} Násob jestli",
                     "máš alespoň {C:attention}16{} Vylepšených",
                     "karet v celém balíčku",
                     "{C:inactive}(Teď {C:attention}#2#{C:inactive})",
@@ -808,7 +808,7 @@ return {
             j_droll={
                 name="Komický Žolík",
                 text={
-                    "{C:red}+#1#{} Mult",
+                    "{C:red}+#1#{} Násob",
                     "pokud zahraná ruka",
                     "obsahuje {C:attention}#2#",
                 },
@@ -822,7 +822,7 @@ return {
             j_duo={
                 name="Dvojka",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult pokud",
+                    "{X:mult,C:white} X#1# {} Násob pokud",
                     "zahraná ruka obsahuje",
                     "{C:attention}#2#",
                 },
@@ -849,10 +849,10 @@ return {
             j_erosion={
                 name="Eroze",
                 text={
-                    "{C:red}+#1#{} Mult za každou",
+                    "{C:red}+#1#{} Násob za každou",
                     "kartu pod {C:attention}#3#{}",
                     "v tvém celém balíčku",
-                    "{C:inactive}(Teď {C:red}+#2#{C:inactive} Mult)",
+                    "{C:inactive}(Teď {C:red}+#2#{C:inactive} Násob)",
                 },
             },
             j_even_steven={
@@ -860,7 +860,7 @@ return {
                 text={
                     "Každá zahraná",
                     "{C:attention}sudá{} karta dá",
-                    "{C:mult}+#1#{} Mult",
+                    "{C:mult}+#1#{} Násob",
                     "{C:inactive}(10, 8, 6, 4, 2)",
                 },
             },
@@ -875,7 +875,7 @@ return {
             j_family={
                 name="Rodina",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult jestli hraná",
+                    "{X:mult,C:white} X#1# {} Násob jestli hraná",
                     "ruka obsahuje {C:attention}Čtveřici",
                 },
                 unlock={
@@ -888,21 +888,21 @@ return {
                 text={
                     "Každé zahrané {C:attention}Eso{},",
                     "{C:attention}2{}, {C:attention}3{}, {C:attention}5{}, nebo {C:attention}8{} dá",
-                    "{C:mult}+#1#{} Mult",
+                    "{C:mult}+#1#{} Násob",
                 },
             },
             j_flash={
                 name="Pomocná Kartička",
                 text={
-                    "Tento žolík dostane {C:mult}+#1#{} Mult",
+                    "Tento žolík dostane {C:mult}+#1#{} Násob",
                     "za každé {C:attention}přetočení{} v obchodě",
-                    "{C:inactive}(Teď {C:mult}+#2#{C:inactive} Mult)",
+                    "{C:inactive}(Teď {C:mult}+#2#{C:inactive} Násob)",
                 },
             },
             j_flower_pot={
                 name="Květináč",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult pokud",
+                    "{X:mult,C:white} X#1# {} Násob pokud",
                     "ruka obsahuje",
                     "{C:diamonds}Károvou{} kartu, {C:clubs}Křížovou{} kartu,",
                     "{C:hearts}Srdcovou{} kartu a {C:spades}Pikovou{} kartu",
@@ -915,7 +915,7 @@ return {
             j_fortune_teller={
                 name="Věštec",
                 text={
-                    "{C:red}+#1#{} Mult za každou",
+                    "{C:red}+#1#{} Násob za každou",
                     "{C:purple}Tarotovou{} kartu použitou tuto hru",
                     "{C:inactive}(Teď {C:red}+#2#{C:inactive})",
                 },
@@ -940,9 +940,9 @@ return {
             j_glass={
                 name="Skleněný Žolík",
                 text={
-                    "Tento žolík získá {X:mult,C:white} X#1# {} Mult",
+                    "Tento žolík získá {X:mult,C:white} X#1# {} Násob",
                     "za každou zničenou {C:attention}Skleněnou Kartu",
-                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Násob)",
                 },
                 unlock={
                     "Měj alespoň {E:1,C:attention}#1#",
@@ -954,7 +954,7 @@ return {
                 text={
                     "Zahrané karty s",
                     "{C:clubs}#2#{} dají",
-                    "{C:mult}+#1#{} Mult",
+                    "{C:mult}+#1#{} Násob",
                 },
             },
             j_golden={
@@ -969,21 +969,21 @@ return {
                 text={
                     "Zahrané karty s",
                     "{C:diamonds}#2#{} dají",
-                    "{C:mult}+#1#{} Mult",
+                    "{C:mult}+#1#{} Násob",
                 },
             },
             j_green_joker={
                 name="Zelený Žolík",
                 text={
-                    "{C:mult}+#1#{} Mult za každou zahranou ruku",
-                    "{C:mult}-#2#{} Mult za každé odhození",
-                    "{C:inactive}(Teď {C:mult}+#3#{C:inactive} Mult)",
+                    "{C:mult}+#1#{} Násob za každou zahranou ruku",
+                    "{C:mult}-#2#{} Násob za každé odhození",
+                    "{C:inactive}(Teď {C:mult}+#3#{C:inactive} Násob)",
                 },
             },
             j_gros_michel={
                 name="Velkej Mike",
                 text={
-                    "{C:mult}+#1#{} Mult",
+                    "{C:mult}+#1#{} Násob",
                     "šance {C:green}#2# z #3#{} že",
                     "se karta rozbije",
                     "na konci kola",
@@ -1000,7 +1000,7 @@ return {
             j_half={
                 name="Poloviční Žolík",
                 text={
-                    "{C:red}+#1#{} Mult pokud",
+                    "{C:red}+#1#{} Násob pokud",
                     "ruka obsahuje",
                     "{C:attention}#2#{} a méně karet",
                 },
@@ -1037,10 +1037,10 @@ return {
             j_hit_the_road={
                 name="Sbohem, Janku!",
                 text={
-                    "Tento Žolík získá {X:mult,C:white} X#1# {} Mult",
+                    "Tento Žolík získá {X:mult,C:white} X#1# {} Násob",
                     "za každého {C:attention}Janka{}",
                     "odhozeného toto kolo",
-                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Násob)",
                 },
                 unlock={
                     "Zahoď {E:1,C:attention}5",
@@ -1050,10 +1050,10 @@ return {
             j_hologram={
                 name="Hologram",
                 text={
-                    "Tento Žolík získá {X:mult,C:white} X#1# {} Mult",
+                    "Tento Žolík získá {X:mult,C:white} X#1# {} Násob",
                     "kdykoliv je {C:attention}hrací karta{}",
                     "přidána do balíčku",
-                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Násob)",
                 },
             },
             j_ice_cream={
@@ -1069,7 +1069,7 @@ return {
                 text={
                     "Každá hraná karta",
                     "{C:attention}#2# {V:1}#3#{} dává",
-                    "{X:mult,C:white} X#1# {} Mult při bodování",
+                    "{X:mult,C:white} X#1# {} Násob při bodování",
                     "{s:0.8}Karta se mění každé kolo",
                 },
                 unlock={
@@ -1095,13 +1095,13 @@ return {
             j_joker={
                 name="Žolík",
                 text={
-                    "{C:red,s:1.1}+#1#{} Mult",
+                    "{C:red,s:1.1}+#1#{} Násob",
                 },
             },
             j_jolly={
                 name="Veselý Žolík",
                 text={
-                    "{C:red}+#1#{} Mult",
+                    "{C:red}+#1#{} Násob",
                     "pokud zahraná ruka",
                     "obsahuje {C:attention}#2#",
                 },
@@ -1115,7 +1115,7 @@ return {
             j_loyalty_card={
                 name="Věrnostní Karta",
                 text={
-                    "{X:red,C:white} X#1# {} Mult každých",
+                    "{X:red,C:white} X#1# {} Násob každých",
                     "{C:attention}#2#{} zahraných rukou",
                     "{C:inactive}#3#",
                 },
@@ -1131,10 +1131,10 @@ return {
             j_lucky_cat={
                 name="Šťastná Kočka",
                 text={
-                    "Tento Žolík získá {X:mult,C:white} X#1# {} Mult",
+                    "Tento Žolík získá {X:mult,C:white} X#1# {} Násob",
                     "kdykoliv se {C:attention}Šťastná{} karta",
                     "{C:green}úspěšně{} aktivuje",
-                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Násob)",
                 },
             },
             j_lusty_joker={
@@ -1142,13 +1142,13 @@ return {
                 text={
                     "Zahrané karty s",
                     "{C:hearts}#2#{} dají",
-                    "{C:mult}+#1#{} Mult",
+                    "{C:mult}+#1#{} Násob",
                 },
             },
             j_mad={
                 name="Naštvaný Žolík",
                 text={
-                    "{C:red}+#1#{} Mult",
+                    "{C:red}+#1#{} Násob",
                     "pokud zahraná ruka",
                     "obsahuje {C:attention}#2#",
                 },
@@ -1157,9 +1157,9 @@ return {
                 name="Šílenství",
                 text={
                     "Když je vybrán {C:attention}Malý Blind{} nebo",
-                    "{C:attention}Velký Blind{}, získá {X:mult,C:white} X#1# {} Mult",
+                    "{C:attention}Velký Blind{}, získá {X:mult,C:white} X#1# {} Násob",
                     "a {C:attention}zničí{} náhodného Žolíka",
-                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Násob)",
                 },
             },
             j_mail={
@@ -1242,18 +1242,18 @@ return {
             j_mystic_summit={
                 name="Mystický Vrchol",
                 text={
-                    "{C:mult}+#1#{} Mult když",
+                    "{C:mult}+#1#{} Násob když",
                     "zbývá {C:attention}#2#{} odhození",
                 },
             },
             j_obelisk={
                 name="Obelisk",
                 text={
-                    "Tento Žolík získá {X:mult,C:white} X#1# {} Mult",
+                    "Tento Žolík získá {X:mult,C:white} X#1# {} Násob",
                     "za každou {C:attention}po sobě hranou{} kombinaci",
                     "aniž bys zahrál tvoji",
                     "nejhranější {C:attention}kombinaci",
-                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Násob)",
                 },
             },
             j_odd_todd={
@@ -1269,7 +1269,7 @@ return {
                 name="Onyxový Achát",
                 text={
                     "Hrané {C:clubs}Křížové{} karty dávají",
-                    "{C:mult}+#1#{} Mult při bodování",
+                    "{C:mult}+#1#{} Násob při bodování",
                 },
                 unlock={
                     "Měj alespoň {E:1,C:attention}#1#",
@@ -1292,7 +1292,7 @@ return {
             j_order={
                 name="Řád",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult",
+                    "{X:mult,C:white} X#1# {} Násob",
                     "pokud zahraná ruka",
                     "obsahuje {C:attention}#2#",
                 },
@@ -1326,15 +1326,15 @@ return {
                 name="Fotografie",
                 text={
                     "První hraná {C:attention}figurová",
-                    "karta dává {X:mult,C:white} X#1# {} Mult",
+                    "karta dává {X:mult,C:white} X#1# {} Násob",
                     "při bodování",
                 },
             },
             j_popcorn={
                 name="Popcorn",
                 text={
-                    "{C:mult}+#1#{} Mult",
-                    "{C:mult}-#2#{} Mult za",
+                    "{C:mult}+#1#{} Násob",
+                    "{C:mult}-#2#{} Násob za",
                     "každé zahrané kolo",
                 },
             },
@@ -1343,14 +1343,14 @@ return {
                 text={
                     "Přidá {C:attention}dvojnásobek{} hodnoty",
                     "{C:attention}nejnižší{} karty",
-                    "v ruce do Multu",
+                    "v ruce do Násobu",
                 },
             },
             j_ramen={
                 name="Nudle",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult,",
-                    "ztratí {X:mult,C:white} X#2# {} Mult",
+                    "{X:mult,C:white} X#1# {} Násob,",
+                    "ztratí {X:mult,C:white} X#2# {} Násob",
                     "za každou odhozenou {C:attention}kartu{}",
                 },
             },
@@ -1358,9 +1358,9 @@ return {
                 name="Červená Karta",
                 text={
                     "Tento Žolík získá",
-                    "{C:red}+#1#{} Mult kdykoliv je",
+                    "{C:red}+#1#{} Násob kdykoliv je",
                     "{C:attention}Balíček Vylepšení{} přeskočen",
-                    "{C:inactive}(Teď {C:red}+#2#{C:inactive} Mult)",
+                    "{C:inactive}(Teď {C:red}+#2#{C:inactive} Násob)",
                 },
             },
             j_reserved_parking={
@@ -1375,11 +1375,11 @@ return {
             j_ride_the_bus={
                 name="Cesta autobusem",
                 text={
-                    "Tenhle Žolík dostane {C:mult}+#1#{} Mult",
+                    "Tenhle Žolík dostane {C:mult}+#1#{} Násob",
                     "za každou{C:attention} po sobě jdoucí{} ruku",
                     "zahranou bez",
                     "{C:attention}figurové{} karty",
-                    "{C:inactive}(Teď {C:mult}+#2#{C:inactive} Mult)",
+                    "{C:inactive}(Teď {C:mult}+#2#{C:inactive} Násob)",
                 },
             },
             j_riff_raff={
@@ -1455,7 +1455,7 @@ return {
                 text={
                     "Zahrané {C:attention}Esa{}",
                     "dají {C:chips}+#2#{} Žetonů",
-                    "a {C:mult}+#1#{} Mult",
+                    "a {C:mult}+#1#{} Násob",
                 },
             },
             j_seance={
@@ -1470,7 +1470,7 @@ return {
             j_seeing_double={
                 name="Dvojité Vidění",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult jestli hraná",
+                    "{X:mult,C:white} X#1# {} Násob jestli hraná",
                     "ruka má bodující",
                     "{C:clubs}Křízovou{} kartu a bodující kartu",
                     "jakékoliv jiné {C:attention}barvy",
@@ -1492,7 +1492,7 @@ return {
                 text={
                     "Každá {C:attention}Dáma{}",
                     "držena v ruce",
-                    "dává {C:mult}+#1#{} Mult",
+                    "dává {C:mult}+#1#{} Násob",
                 },
                 unlock={
                     "Zahraj každou {E:1,C:attention}Srdcovou",
@@ -1543,7 +1543,7 @@ return {
                 name="Smajlík",
                 text={
                     "Hrané {C:attention}figurové{} karty",
-                    "dávají {C:mult}+#1#{} Mult",
+                    "dávají {C:mult}+#1#{} Násob",
                     "při bodování",
                 },
             },
@@ -1584,16 +1584,16 @@ return {
             j_steel_joker={
                 name="Ocelový Žolík",
                 text={
-                    "Dává {X:mult,C:white} X#1# {} Mult",
+                    "Dává {X:mult,C:white} X#1# {} Násob",
                     "za každou {C:attention}Ocelovou Kartu",
                     "ve tvém {C:attention}celém balíčku",
-                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Násob)",
                 },
             },
             j_stencil={
                 name="Šablona",
                 text={
-                    "{X:red,C:white} X1 {} Mult za každé",
+                    "{X:red,C:white} X1 {} Násob za každé",
                     "prázdné {C:attention}místo na žolíka{}",
                     "{s:0.8}Včetně Šablony",
                     "{C:inactive}(Teď {X:red,C:white} X#1# {C:inactive})",
@@ -1602,10 +1602,10 @@ return {
             j_stone={
                 name="Kamenný Žolík",
                 text={
-                    "Dává {X:mult,C:white} X#1# {} Mult",
-                    "za každou {C:attention}Ocelovou Kartu",
+                    "Dává {C:chips}+#1#{} Žetonů za",
+                    "každou {C:attention}Kamennou Kartu",
                     "ve tvém {C:attention}celém balíčku",
-                    "{C:inactive}(Teď {C:chips}+#2#{C:inactive} Žetonů)",
+                    "{C:inactive}(Momentálně {C:chips}+#2#{C:inactive} Žetonů)",
                 },
             },
             j_stuntman={
@@ -1625,7 +1625,7 @@ return {
                 text={
                     "Přídá počet {C:attention}Pokrových Rukou{}",
                     "které byly zahrány do",
-                    "tohoto Multu",
+                    "tohoto Násobu",
                 },
             },
             j_superposition={
@@ -1642,8 +1642,8 @@ return {
                 text={
                     "Přidá hodnotu",
                     "všech ostatních",
-                    "{C:attention}Žolíků{} do Multu",
-                    "{C:inactive}(Teď {C:mult}+#1#{C:inactive} Mult)",
+                    "{C:attention}Žolíků{} do Násobu",
+                    "{C:inactive}(Teď {C:mult}+#1#{C:inactive} Násob)",
                 },
                 unlock={
                     "Prodej",
@@ -1654,9 +1654,9 @@ return {
             j_throwback={
                 name="Vzpomínka",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult pro každý",
+                    "{X:mult,C:white} X#1# {} Násob pro každý",
                     "přeskočený {C:attention}Blind{} tuto hru",
-                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Násob)",
                 },
                 unlock={
                     "Pokračuj uloženou hru",
@@ -1702,7 +1702,7 @@ return {
             j_tribe={
                 name="Kmen",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult",
+                    "{X:mult,C:white} X#1# {} Násob",
                     "pokud zahraná ruka",
                     "obsahuje {C:attention}#2#",
                 },
@@ -1716,7 +1716,7 @@ return {
                 text={
                     "Hraní {C:attention}Králové{} a",
                     "{C:attention}Dámy{} dávají",
-                    "{X:mult,C:white} X#1# {} Mult při skórování",
+                    "{X:mult,C:white} X#1# {} Násob při skórování",
                 },
                 unlock={
                     "{E:1,s:1.3}?????",
@@ -1725,7 +1725,7 @@ return {
             j_trio={
                 name="Trojka",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult pokud",
+                    "{X:mult,C:white} X#1# {} Násob pokud",
                     "zahraná ruka obsahuje",
                     "{C:attention}#2#",
                 },
@@ -1749,9 +1749,9 @@ return {
             j_trousers={
                 name="Kalhoty Navíc",
                 text={
-                    "Tento Žolík získá {C:mult}+#1#{} Mult",
+                    "Tento Žolík získá {C:mult}+#1#{} Násob",
                     "jestli hraná ruka obsahuje {C:attention}#2#",
-                    "{C:inactive}(Teď {C:red}+#3#{C:inactive} Mult)",
+                    "{C:inactive}(Teď {C:red}+#3#{C:inactive} Násob)",
                 },
             },
             j_turtle_bean={
@@ -1772,10 +1772,10 @@ return {
             j_vampire={
                 name="Upír",
                 text={
-                    "Tento Žolík získá {X:mult,C:white} X#1# {} Mult",
+                    "Tento Žolík získá {X:mult,C:white} X#1# {} Násob",
                     "za zahranou bodovanou {C:attention}Vylepšenou kartu{},",
                     "odstraní z karty {C:attention}Vylepšení",
-                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "{C:inactive}(Teď {X:mult,C:white} X#2# {C:inactive} Násob)",
                 },
             },
             j_walkie_talkie={
@@ -1783,7 +1783,7 @@ return {
                 text={
                     "Každá hraná {C:attention}10{} nebo {C:attention}4",
                     "dává {C:chips}+#1#{} Žetonů a",
-                    "{C:mult}+#2#{} Mult při bodování",
+                    "{C:mult}+#2#{} Násob při bodování",
                 },
             },
             j_wee={
@@ -1812,16 +1812,16 @@ return {
                 text={
                     "Zahrané karty s",
                     "{C:spades}#2#{} dají",
-                    "{C:mult}+#1#{} Mult",
+                    "{C:mult}+#1#{} Násob",
                 },
             },
             j_yorick={
                 name="Yorick",
                 text={
                     "Tento Žolík získá",
-                    "{X:mult,C:white} X#1# {} Mult za každých {C:attention}#2#{C:inactive} [#3#]{}",
+                    "{X:mult,C:white} X#1# {} Násob za každých {C:attention}#2#{C:inactive} [#3#]{}",
                     "odhozených karet",
-                    "{C:inactive}(Teď {X:mult,C:white} X#4# {C:inactive} Mult)",
+                    "{C:inactive}(Teď {X:mult,C:white} X#4# {C:inactive} Násob)",
                 },
                 unlock={
                     "{E:1,s:1.3}?????",
@@ -1830,7 +1830,7 @@ return {
             j_zany={
                 name="Praštěný Žolík",
                 text={
-                    "{C:red}+#1#{} Mult",
+                    "{C:red}+#1#{} Násob",
                     "pokud zahraná ruka",
                     "obsahuje {C:attention}#2#",
                 },
@@ -2251,7 +2251,7 @@ return {
                 text={
                     "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult a",
+                    "{C:mult}+#3#{} Násob a",
                     "{C:chips}+#4#{} žetonů",
                 },
             },
@@ -2260,7 +2260,7 @@ return {
                 text={
                     "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult a",
+                    "{C:mult}+#3#{} Násob a",
                     "{C:chips}+#4#{} žetonů",
                 },
             },
@@ -2269,7 +2269,7 @@ return {
                 text={
                     "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult a",
+                    "{C:mult}+#3#{} Násob a",
                     "{C:chips}+#4#{} žetonů",
                 },
             },
@@ -2278,7 +2278,7 @@ return {
                 text={
                     "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult a",
+                    "{C:mult}+#3#{} Násob a",
                     "{C:chips}+#4#{} žetonů",
                 },
             },
@@ -2287,7 +2287,7 @@ return {
                 text={
                     "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult a",
+                    "{C:mult}+#3#{} Násob a",
                     "{C:chips}+#4#{} žetonů",
                 },
             },
@@ -2296,7 +2296,7 @@ return {
                 text={
                     "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult a",
+                    "{C:mult}+#3#{} Násob a",
                     "{C:chips}+#4#{} žetonů",
                 },
             },
@@ -2305,7 +2305,7 @@ return {
                 text={
                     "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult a",
+                    "{C:mult}+#3#{} Násob a",
                     "{C:chips}+#4#{} žetonů",
                 },
             },
@@ -2314,7 +2314,7 @@ return {
                 text={
                     "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult a",
+                    "{C:mult}+#3#{} Násob a",
                     "{C:chips}+#4#{} žetonů",
                 },
             },
@@ -2323,7 +2323,7 @@ return {
                 text={
                     "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult a",
+                    "{C:mult}+#3#{} Násob a",
                     "{C:chips}+#4#{} žetonů",
                 },
             },
@@ -2332,7 +2332,7 @@ return {
                 text={
                     "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult a",
+                    "{C:mult}+#3#{} Násob a",
                     "{C:chips}+#4#{} žetonů",
                 },
             },
@@ -2341,7 +2341,7 @@ return {
                 text={
                     "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult a",
+                    "{C:mult}+#3#{} Násob a",
                     "{C:chips}+#4#{} žetonů",
                 },
             },
@@ -2350,7 +2350,7 @@ return {
                 text={
                     "{S:0.8}({S:0.8,V:1}úrov.#1#{S:0.8}){} Vylepší",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult a",
+                    "{C:mult}+#3#{} Násob a",
                     "{C:chips}+#4#{} žetonů",
                 },
             },
@@ -2720,7 +2720,7 @@ return {
                 name="Standardní Tag",
                 text={
                     "Dá zadarmo",
-                    "{C:attention}Mega Standartní Balíček",
+                    "{C:attention}Mega Standardní Balíček",
                 },
             },
             tag_top_up={
@@ -2954,13 +2954,13 @@ return {
                 text={
                     "Přetoč Boss Blind",
                     "{C:attention}1{} za Ante,",
-                    "{C:money}$#1#{} za protočení",
+                    "{C:money}$#1#{} za přetočení",
                 },
             },
             v_glow_up={
                 name="Proměna",
                 text={
-                    "{C:dark_edition}Foliové{}, {C:dark_edition}Holografické{}, and",
+                    "{C:dark_edition}Foliové{}, {C:dark_edition}Holografické{} a",
                     "{C:dark_edition}Duhové{} karty",
                     "se objevují {C:attention}#1#X{} častěji",
                 },
@@ -2990,7 +2990,7 @@ return {
             v_hone={
                 name="Vylepšit",
                 text={
-                    "{C:dark_edition}Foliové{}, {C:dark_edition}Holografické{}, a",
+                    "{C:dark_edition}Foliové{}, {C:dark_edition}Holografické{} a",
                     "{C:dark_edition}Duhové{} karty",
                     "se objevují {C:attention}#1#X{} častěji",
                 },
@@ -3059,7 +3059,7 @@ return {
                 text={
                     "{C:planet}Planetové{} karty v prostoru pro",
                     "{C:attention}spotřební karty{} dávají",
-                    "{X:red,C:white} X#1# {} Mult pro",
+                    "{X:red,C:white} X#1# {} Násob pro",
                     "jejich specifiké {C:attention}kombinace",
                 },
                 unlock={
@@ -3070,7 +3070,7 @@ return {
                 },
             },
             v_omen_globe={
-                name="Osudová Koule",
+                name="Koule Osudu",
                 text={
                     "{C:spectral}Spektrální{} karty se mohou",
                     "objevit v jakémkoliv",
@@ -3164,29 +3164,29 @@ return {
                 },
             },
             v_reroll_glut={
-                name="Nadmíra Protočení",
+                name="Nadmíra Přetočení",
                 text={
-                    "Protočení stojí o",
+                    "Přetočení stojí o",
                     "{C:money}$#1#{} méně",
                 },
                 unlock={
-                    "Protoč obchod dohromady {C:attention}#1#{} krát",
+                    "Přetoč obchod dohromady {C:attention}#1#{} krát",
                     "{C:inactive}(#2#)",
                 },
             },
             v_reroll_surplus={
-                name="Přebytek Protočení",
+                name="Přebytek Přetočení",
                 text={
-                    "Protočení stojí o",
+                    "Přetočení stojí o",
                     "{C:money}$#1#{} méně",
                 },
             },
             v_retcon={
                 name="Reverzní Kontinuita",
                 text={
-                    "Protoč Boss Blind",
+                    "Přetoč Boss Blind",
                     "{C:attention}kolikrát chceš{},",
-                    "{C:money}$#1#{} za protočení",
+                    "{C:money}$#1#{} za přetočení",
                 },
                 unlock={
                     "Objev",
@@ -3535,7 +3535,7 @@ return {
             k_hud_hands="Ruce",
             k_incompatible="nekompatibilní",
             k_joker="Žolík",
-            k_joker_stickers="Joker Stickers",
+            k_joker_stickers="Nálepky Žolíků",
             k_jokers_cap="ŽOLÍCI",
             k_legendary="Legendární",
             k_level_prefix="úrov.",
@@ -3545,7 +3545,7 @@ return {
             k_lvl="úrov.",
             k_melted_ex="Roztaveno!",
             k_money="Peníze",
-            k_mult="Mult",
+            k_mult="Násob",
             k_no_other_jokers="No other Jokers!",
             k_no_reward="Žádná odměna",
             k_no_room_ex="Není Místo!",
@@ -3568,7 +3568,7 @@ return {
             k_plus_tarot="+1 Tarot",
             k_poker_hand="pokrová ruka",
             k_profile="Profil",
-            k_progress="Progress",
+            k_progress="Postup",
             k_rank="Hodnota",
             k_rare="Vzácné",
             k_redeemed_ex="Uplatněn!",
@@ -3585,7 +3585,7 @@ return {
             k_spectral_pack="Spektrální Balíček",
             k_stake="Sázka",
             k_stake_level="Úroveň Sázky",
-            k_standard_pack="Standartní Balíček",
+            k_standard_pack="Standardní Balíček",
             k_suit="Barva",
             k_swapped_ex="Prohozen!",
             k_tarot="Tarot",
@@ -3975,7 +3975,7 @@ return {
             fh_2={
                 "Každá {C:attention}Pokrová ruka{} získá",
                 "základní počet {C:blue}Žetonů",
-                "násobený {C:red}Multem",
+                "násobený {C:red}Násobem",
             },
             fh_3={
                 "Podívej se na své {C:attention}Pokróvé ruce",
@@ -4058,7 +4058,7 @@ return {
                 "dělá něco jiného",
             },
             s_4={
-                "Tento přidává {C:red}+4 Mult{} do",
+                "Tento přidává {C:red}+4 Násob{} do",
                 "každé ruky, kterou hraješ!",
             },
             s_5={
@@ -4135,12 +4135,12 @@ return {
             a_hands="+#1# Ruk",
             a_handsize="+#1# Velikost Ruky",
             a_handsize_minus="-#1# Velikost Ruky",
-            a_mult="+#1# Mult",
-            a_mult_minus="-#1# Mult",
+            a_mult="+#1# Násob",
+            a_mult_minus="-#1# Násob",
             a_remaining="#1# Zbývajících",
             a_sold_tally="#1#/#2# Prodáno",
-            a_xmult="X#1# Mult",
-            a_xmult_minus="-X#1# Mult",
+            a_xmult="X#1# Násob",
+            a_xmult_minus="-X#1# Násob",
             ante_x_voucher="ANTE #1# POUKAZ",
             challenges_completed="Dokončeno #1#/#2# Výzev",
             completed="#1#/#2# Dokončeno",
@@ -4155,7 +4155,7 @@ return {
             },
             ml_holo_desc={
                 "Holografický",
-                "+#1# Mult",
+                "+#1# Násob",
             },
             ml_negative_consumable_desc={
                 "Negativní",
@@ -4167,7 +4167,7 @@ return {
             },
             ml_polychrome_desc={
                 "Duhový",
-                "X#1# Mult",
+                "X#1# Násob",
             },
             remaining_discard_money="Zbývající Odhozy ($#1# každý)",
             remaining_hand_money="Zbývající Ruce ($#1# každý)",
