@@ -101,6 +101,18 @@ class InstallerWindow(ctk.CTk):
         self.entry_game_path.pack(side="left", padx=(0, 5))
         self.button_browse = ctk.CTkButton(self.frame_game_path, text="Browse", command=self.browse_folder, width=70)
         self.button_browse.pack(side="left")
+        # Populate translation_select with files from localization folder
+        localization_folder = os.path.join(os.path.dirname(__file__), "localization")
+        try:
+            values = [f for f in os.listdir(localization_folder) if f.endswith(".lua")]
+        except Exception:
+            values = []
+        self.selected_translation = ctk.StringVar(value=values[0] if values else "")
+        self.translation_select = ctk.CTkComboBox(self, values=values, state="readonly", variable=self.selected_translation)
+        if values:
+            self.translation_select.set(values[0])
+        self.translation_select.pack(pady=5)
+        # Usable variable for currently selected translation file
 
         # Frame for Patch and Restore buttons
         self.frame_buttons = ctk.CTkFrame(self)
@@ -120,6 +132,13 @@ class InstallerWindow(ctk.CTk):
             # ['cz_cs'] = {font = 6, label = "Česky", key = 'cz_cs', beta=true, button = "Jazyková zpětná vazba", warning = {'Tento jazyk je stále v beta verzi. Chcete-li nám pomoci','vylepšit ho, klikněte prosím na tlačítko zpětné vazby.', 'Klikněte znovu pro potvrzení.'}},
             # into self.LANGUAGES in game.lua
             # You can also return or process these variables as needed
+            
+            localisation_file = self.selected_translation.get()
+            if not localisation_file:
+                msg = "No translation file selected"
+                self.status_var.set(msg)
+                return msg
+            
             if not self.var_game_path.get() and os.path.exists(self.var_game_path.get()):
                 msg = "Please select a valid path"
                 self.status_var.set(msg)
@@ -159,10 +178,18 @@ class InstallerWindow(ctk.CTk):
             
             os.makedirs("resources/fonts", exist_ok=True)
             shutil.copy("assets/fonts/m6x11pluscs.ttf", "resources/fonts/m6x11pluscs.ttf")
-            
-            subprocess.run([
-                "7-ZipPortable/App/7-Zip64/7z.exe", "u", self.var_game_path.get()+"/balatro.exe", "localization/cs.lua"
-            ])
+            if self.selected_translation.get() == "cs.lua":
+                subprocess.run([
+                    "7-ZipPortable/App/7-Zip64/7z.exe", "u", self.var_game_path.get()+"/balatro.exe", "localization/cs.lua"
+                ])
+            else:
+                shutil.move("localization/cs.lua", "localization/cs.lua.old")
+                shutil.move(os.path.join("localization", self.selected_translation.get()), "localization/cs.lua")
+                subprocess.run([
+                    "7-ZipPortable/App/7-Zip64/7z.exe", "u", self.var_game_path.get()+"/balatro.exe", "localization/cs.lua"
+                ])
+                shutil.move("localization/cs.lua", os.path.join("localization", self.selected_translation.get()))
+                shutil.move("localization/cs.lua.old", "localization/cs.lua")
             subprocess.run([
                 "7-ZipPortable/App/7-Zip64/7z.exe", "u", self.var_game_path.get()+"/balatro.exe", "resources/fonts/m6x11pluscs.ttf"
             ])
