@@ -548,7 +548,7 @@ return {
                 name="Blueprint",
                 text={
                     "Kopíruje schopnost",
-                    "{C:attention}Žolíka{} nejvíce vpravo",
+                    "{C:attention}Žolíka{} vravo",
                 },
                 unlock={
                     "Vyhraj hru",
@@ -3884,7 +3884,7 @@ return {
             },
             lq_9={
                 "Já jsem doslova",
-                "blázen, jaká je",
+                "šašek, jaká je",
                 "tvoje výmluva?",
             },
             wq_1={
