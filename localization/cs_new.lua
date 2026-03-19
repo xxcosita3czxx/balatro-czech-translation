@@ -3408,7 +3408,7 @@ return {
             b_load_profile="Nahrát Profil",
             b_main_menu="Hlavní Menu",
             b_music="Hudba",
-            b_new_challenge="Start New Challenge",
+            b_new_challenge="Začít novou výzvu",
             b_new_run="Nová Hra",
             b_next="Další",
             b_next_round_1="Další",
